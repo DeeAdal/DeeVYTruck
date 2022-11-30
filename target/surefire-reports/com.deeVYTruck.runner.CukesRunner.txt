@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.deeVYTruck.runner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.deeVYTruck.runner.CukesRunner
+com.deeVYTruck.runner.CukesRunner.initializationError  Time elapsed: 0.001 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Users/deead/IdeaProjects/JavaProgrmming/DeeVYTruck/src/test/resources/features/us1.feature
+(6:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario Outline : Log in as a driver'
+(7:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given User is on the VyTrack home page'
+(8:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When User enters "<Username>"'
+(9:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And user enters password UserUser123'
+(10:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And User clicks on Log In button'
+(11:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then User waits for loading bar'
+(12:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And User should see the home page with Dashboard WebTitle'
+(13:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And User "should" see all four modules on the main page'
+(14:7): expected: #TagLine, #RuleLine, #Comment, #Empty, got '| Fleet      |'
+(15:7): expected: #TagLine, #RuleLine, #Comment, #Empty, got '| Customers  |'
+(16:7): expected: #TagLine, #RuleLine, #Comment, #Empty, got '| Activities |'
+
